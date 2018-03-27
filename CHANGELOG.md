@@ -1,5 +1,7 @@
 # Change Log
 
+### Unreleased
+
 ### [v0.55](https://github.com/react4j/react4j-windowportal/tree/v0.55) (2018-03-27)
 [Full Changelog](https://github.com/react4j/react4j-windowportal/compare/v0.54...v0.55)
 
