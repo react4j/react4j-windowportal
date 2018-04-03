@@ -2,22 +2,26 @@
 
 ### Unreleased
 
-### [v0.58](https://github.com/react4j/react4j-windowportal/tree/v0.58) (2018-04-03)
-[Full Changelog](https://github.com/react4j/react4j-windowportal/compare/v0.57...v0.58)
+### [v1.05](https://github.com/react4j/react4j-windowportal/tree/v1.05) (2018-04-03)
+[Full Changelog](https://github.com/react4j/react4j-windowportal/compare/v0.04...v1.05)
 
 Update the 'org.realityforge.react4j' dependencies to version '0.58'
-### [v0.57](https://github.com/react4j/react4j-windowportal/tree/v0.57) (2018-03-28)
-[Full Changelog](https://github.com/react4j/react4j-windowportal/compare/v0.56...v0.57)
 
-Update the 'org.realityforge.react4j' dependencies to version '0.57'
-### [v0.56](https://github.com/react4j/react4j-windowportal/tree/v0.56) (2018-03-28)
-[Full Changelog](https://github.com/react4j/react4j-windowportal/compare/v0.55...v0.56)
+### [v0.04](https://github.com/react4j/react4j-windowportal/tree/v0.04) (2018-03-28)
+[Full Changelog](https://github.com/react4j/react4j-windowportal/compare/v0.03...v0.04)
 
-Update the 'org.realityforge.react4j' dependencies to version '0.56'
-### [v0.55](https://github.com/react4j/react4j-windowportal/tree/v0.55) (2018-03-27)
-[Full Changelog](https://github.com/react4j/react4j-windowportal/compare/v0.54...v0.55)
+Update the 'org.realityforge.react4j' dependencies to version '0.04'
 
-Update the 'org.realityforge.react4j' dependencies to version '0.55'
+### [v0.03](https://github.com/react4j/react4j-windowportal/tree/v0.03) (2018-03-28)
+[Full Changelog](https://github.com/react4j/react4j-windowportal/compare/v0.02...v0.03)
+
+Update the 'org.realityforge.react4j' dependencies to version '0.03'
+
+### [v0.02](https://github.com/react4j/react4j-windowportal/tree/v0.02) (2018-03-27)
+[Full Changelog](https://github.com/react4j/react4j-windowportal/compare/v0.54...v0.02)
+
+Update the 'org.realityforge.react4j' dependencies to version '0.02'
+
 ### [v0.01](https://github.com/react4j/react4j-windowportal/tree/v0.01) (2018-28-3)
 [Full Changelog](https://github.com/react4j/react4j-windowportal/compare/be26d496faf52dd080995dd1c98854f3c3faf1f4...v0.01)
 
