@@ -1,5 +1,8 @@
 WORKSPACE_DIR = File.expand_path(File.dirname(__FILE__) + '/..')
 
+ENV['PREVIOUS_PRODUCT_VERSION'] = nil if ENV['PREVIOUS_PRODUCT_VERSION'].to_s == ''
+ENV['PRODUCT_VERSION'] = nil if ENV['PRODUCT_VERSION'].to_s == ''
+
 def in_dir(dir)
   current = Dir.pwd
   begin
