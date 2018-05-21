@@ -2,6 +2,8 @@
 
 ### Unreleased
 
+* Fix bug that resulted in inclusion in the package of the gwt compile output.
+
 ### [v1.16](https://github.com/react4j/react4j-windowportal/tree/v1.16) (2018-05-20)
 [Full Changelog](https://github.com/react4j/react4j-windowportal/compare/v1.15...v1.16)
 
