@@ -18,7 +18,6 @@ define 'react4j-windowportal' do
   project.processorpath << :react4j_processor
 
   compile.with :javax_jsr305,
-               :anodoc,
                :jsinterop_base,
                :jsinterop_base_sources,
                :jsinterop_annotations,

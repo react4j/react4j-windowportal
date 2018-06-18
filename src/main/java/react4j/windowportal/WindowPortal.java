@@ -7,7 +7,6 @@ import elemental2.dom.Window;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import jsinterop.base.Js;
-import org.realityforge.anodoc.Unsupported;
 import react4j.annotations.Prop;
 import react4j.annotations.ReactComponent;
 import react4j.core.Component;
@@ -23,7 +22,6 @@ import react4j.dom.ReactDOM;
  * <p>TODO: In the future we should pass a control in the context that allows the sub-window to close itself.</p>
  */
 @ReactComponent
-@Unsupported
 public abstract class WindowPortal
   extends Component
 {
