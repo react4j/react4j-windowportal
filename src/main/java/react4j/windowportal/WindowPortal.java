@@ -7,10 +7,10 @@ import elemental2.dom.Window;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import jsinterop.base.Js;
+import react4j.Component;
+import react4j.ReactNode;
 import react4j.annotations.Prop;
 import react4j.annotations.ReactComponent;
-import react4j.core.Component;
-import react4j.core.ReactNode;
 import react4j.dom.ReactDOM;
 
 /**
