@@ -24,7 +24,6 @@ define 'react4j-windowportal' do
                :elemental2_dom,
                :elemental2_promise,
                :braincheck,
-               :react4j_annotation,
                :react4j_core,
                :react4j_dom
 
