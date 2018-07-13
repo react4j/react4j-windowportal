@@ -2,6 +2,7 @@
 
 [![Build Status](https://secure.travis-ci.org/react4j/react4j-windowportal.png?branch=master)](http://travis-ci.org/react4j/react4j-windowportal)
 [<img src="https://img.shields.io/maven-central/v/org.realityforge.react4j.windowportal/react4j-windowportal.svg?label=latest%20release"/>](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.realityforge.react4j.windowportal%22)
+![GWT3/J2CL compatible](https://img.shields.io/badge/GWT3/J2CL-compatible-brightgreen.svg)
 
 This library provides a portal that renders into a Window.
 
