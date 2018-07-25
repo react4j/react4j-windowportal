@@ -2,6 +2,8 @@
 
 ### Unreleased
 
+* Update the 'org.realityforge.react4j' dependencies to version '0.87'
+
 ### [v1.29](https://github.com/react4j/react4j-windowportal/tree/v1.29) (2018-07-20)
 [Full Changelog](https://github.com/react4j/react4j-windowportal/compare/v1.28...v1.29)
 
