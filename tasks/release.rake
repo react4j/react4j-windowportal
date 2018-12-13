@@ -51,7 +51,7 @@ task 'perform_release' do
     end
 
     stage('Build', 'Build the project to ensure that the tests pass') do
-      sh "bundle exec buildr clean package PRODUCT_VERSION=#{ENV['PRODUCT_VERSION']}"
+      sh "bundle exec buildr clean package install PRODUCT_VERSION=#{ENV['PRODUCT_VERSION']}"
     end
 
     stage('PatchChangelog', 'Patch the changelog to update from previous release') do
@@ -79,6 +79,12 @@ HEADER
 
     stage('TagProject', 'Tag the project') do
       sh "git tag v#{ENV['PRODUCT_VERSION']}"
+    end
+
+    stage('StageRelease', 'Stage the release') do
+      IO.write('_buildr.rb', "repositories.release_to = { :url => 'https://stocksoftware.jfrog.io/stocksoftware/staging', :username => '#{ENV['STAGING_USERNAME']}', :password => '#{ENV['STAGING_PASSWORD']}' }")
+      sh 'bundle exec buildr clean upload TEST=no GWT=no'
+      sh 'rm -f _buildr.rb'
     end
 
     stage('MavenCentralPublish', 'Publish artifacts to Maven Central') do
