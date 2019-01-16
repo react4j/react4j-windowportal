@@ -9,6 +9,7 @@ import javax.annotation.Nullable;
 import jsinterop.base.Js;
 import react4j.Component;
 import react4j.ReactNode;
+import react4j.annotations.PreUnmount;
 import react4j.annotations.Prop;
 import react4j.annotations.ReactComponent;
 import react4j.dom.ReactDOM;
@@ -95,8 +96,8 @@ public abstract class WindowPortal
     return Js.uncheckedCast( Js.asPropertyMap( _externalWindow ).get( "document" ) );
   }
 
-  @Override
-  protected void componentWillUnmount()
+  @PreUnmount
+  final void preUnmount()
   {
     assert null != _externalWindow;
     assert null != _element;
