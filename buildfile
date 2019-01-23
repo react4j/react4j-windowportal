@@ -16,6 +16,7 @@ define 'react4j-windowportal' do
   pom.dependency_filter = Proc.new {|dep| dom_artifact == dep[:artifact]}
 
   project.processorpath << :react4j_processor
+  project.processorpath << :arez_processor
 
   compile.with :javax_annotation,
                :jsinterop_base,
@@ -24,6 +25,7 @@ define 'react4j-windowportal' do
                :elemental2_dom,
                :elemental2_promise,
                :braincheck,
+               :arez_core,
                :react4j_core,
                :react4j_dom
 
