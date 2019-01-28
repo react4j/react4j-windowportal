@@ -1,5 +1,7 @@
 package react4j.windowportal;
 
+import arez.annotations.PostConstruct;
+import arez.annotations.PreDispose;
 import elemental2.dom.DomGlobal;
 import elemental2.dom.Element;
 import elemental2.dom.HTMLDocument;
@@ -9,7 +11,6 @@ import javax.annotation.Nullable;
 import jsinterop.base.Js;
 import react4j.Component;
 import react4j.ReactNode;
-import react4j.annotations.PreUnmount;
 import react4j.annotations.Prop;
 import react4j.annotations.ReactComponent;
 import react4j.dom.ReactDOM;
@@ -61,8 +62,8 @@ public abstract class WindowPortal
   @Prop
   protected abstract ReactNode[] children();
 
-  @Override
-  protected void postConstruct()
+  @PostConstruct
+  final void postConstruct()
   {
     _externalWindow = DomGlobal.window.open( "",
                                              windowName(),
@@ -96,8 +97,8 @@ public abstract class WindowPortal
     return Js.uncheckedCast( Js.asPropertyMap( _externalWindow ).get( "document" ) );
   }
 
-  @PreUnmount
-  final void preUnmount()
+  @PreDispose
+  final void preDispose()
   {
     assert null != _externalWindow;
     assert null != _element;
