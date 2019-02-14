@@ -1,6 +1,7 @@
 # Change Log
 
-### Unreleased
+### [v1.61](https://github.com/react4j/react4j-windowportal/tree/v1.61) (2019-02-14)
+[Full Changelog](https://github.com/react4j/react4j-windowportal/compare/v1.60...v1.61)
 
 * Update the 'org.realityforge.arez' dependencies to version '0.130'
 
