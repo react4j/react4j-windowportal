@@ -15,7 +15,7 @@ The simplest way to use component;
 <dependency>
    <groupId>org.realityforge.react4j.windowportal</groupId>
    <artifactId>react4j-windowportal</artifactId>
-   <version>1.61</version>
+   <version>1.62</version>
 </dependency>
 ```
 
