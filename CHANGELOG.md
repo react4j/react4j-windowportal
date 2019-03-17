@@ -2,7 +2,7 @@
 
 ### Unreleased
 
-* Upgrade the `org.realityforge.com.google.elemental2` artifacts to version `1.0.0-b19-fb227e3`.
+* Upgrade the `org.realityforge.com.google.elemental2` artifacts to version `1.0.0-b20-bfe6e22`.
 * Upgrade the `org.realityforge.braincheck` artifact to version `1.13.0`.
 
 ### [v1.63](https://github.com/react4j/react4j-windowportal/tree/v1.63) (2019-02-24)
