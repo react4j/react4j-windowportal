@@ -1,6 +1,7 @@
 # Change Log
 
-### Unreleased
+### [v1.64](https://github.com/react4j/react4j-windowportal/tree/v1.64) (2019-03-21)
+[Full Changelog](https://github.com/react4j/react4j-windowportal/compare/v1.63...v1.64)
 
 * Update the 'org.realityforge.react4j' dependencies to version '0.122'
 * Upgrade the `org.realityforge.arez` artifacts to version `0.133`.
