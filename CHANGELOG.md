@@ -2,6 +2,7 @@
 
 ### Unreleased
 
+* Update the 'org.realityforge.react4j' dependencies to version '0.124'
 * Upgrade the `org.realityforge.braincheck` artifact to version `1.15.0`.
 
 ### [v1.65](https://github.com/react4j/react4j-windowportal/tree/v1.65) (2019-04-05)
