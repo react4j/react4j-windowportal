@@ -2,6 +2,8 @@
 
 ### Unreleased
 
+* Upgrade the `org.realityforge.com.google.elemental2` artifacts to version `2.24`.
+
 ### [v1.70](https://github.com/react4j/react4j-windowportal/tree/v1.70) (2019-05-08)
 [Full Changelog](https://github.com/react4j/react4j-windowportal/compare/v1.69...v1.70)
 
