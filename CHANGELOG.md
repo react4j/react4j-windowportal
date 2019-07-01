@@ -1,6 +1,7 @@
 # Change Log
 
-### Unreleased
+### [v1.72](https://github.com/react4j/react4j-windowportal/tree/v1.72) (2019-07-01)
+[Full Changelog](https://github.com/react4j/react4j-windowportal/compare/v1.71...v1.72)
 
 * Update the 'org.realityforge.react4j' dependencies to version '0.130'
 * Upgrade the `org.realityforge.braincheck` artifact to version `1.19.0`.
