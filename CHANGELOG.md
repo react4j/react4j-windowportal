@@ -1,5 +1,7 @@
 # Change Log
 
+### Unreleased
+
 ### [v1.73](https://github.com/react4j/react4j-windowportal/tree/v1.73) (2019-07-09)
 [Full Changelog](https://github.com/react4j/react4j-windowportal/compare/v1.72...v1.73)
 
