@@ -2,6 +2,7 @@
 
 ### Unreleased
 
+* Update the 'org.realityforge.react4j' dependencies to version '0.132'
 * Upgrade the `au.com.stocksoftware.idea.codestyle` artifact to version `1.14`.
 
 ### [v1.73](https://github.com/react4j/react4j-windowportal/tree/v1.73) (2019-07-09)
