@@ -5,6 +5,7 @@
 * Upgrade the `org.realityforge.braincheck` artifact to version `1.23.0`.
 * Upgrade the `org.realityforge.javax.annotation` artifact to version `1.0.1`.
 * Upgrade the `org.realityforge.com.google.elemental2` artifacts to version `2.25`.
+* Upgrade the `org.realityforge.arez` artifacts to version `0.146`.
 
 ### [v1.74](https://github.com/react4j/react4j-windowportal/tree/v1.74) (2019-07-15)
 [Full Changelog](https://github.com/react4j/react4j-windowportal/compare/v1.73...v1.74)
