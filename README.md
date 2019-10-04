@@ -1,3 +1,9 @@
+# Archived
+
+<p align="center">Project has been archived as we no longer want to continue supporting it. If anyone wants to take over support it should be relatively easy to adopt. Until then consider the project shuttered.</p>
+
+---
+
 # React4j-Widget
 
 [![Build Status](https://secure.travis-ci.org/react4j/react4j-windowportal.svg?branch=master)](http://travis-ci.org/react4j/react4j-windowportal)
